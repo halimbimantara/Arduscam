@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference 
+        android:title="Url Stream"
+        android:key="url_stream"
+        android:defaultValue="rtsp://192.168.1.1:8080/?action=stream"
+        android:summary="Enter URL video Stream"
+        />
+    <EditTextPreference 
+        android:title="Url Image"
+        android:key="url_image"
+        android:defaultValue="http://xx/arducam/data/*Jpg"
+        android:summary="Enter URL Image"
+        />
+    
+    <EditTextPreference 
+        android:title="Max Duration Stream"
+        android:key="duration"
+        android:defaultValue="5"
+        android:summary="enter duration minutes"
+        />
+    
+    <EditTextPreference 
+        android:title="Number Phone"
+        android:key="number_phone"
+        android:defaultValue="085815962808"
+        android:summary="enter number phone receiver notification alert"
+        />
+    
+    
+    
+    
+    
+
+</PreferenceScreen>

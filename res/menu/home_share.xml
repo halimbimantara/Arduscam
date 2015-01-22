@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+ <item
+			android:id="@+id/Home_Stream"
+			android:showAsAction="ifRoom"
+			android:title="Stream"
+			/>   
+	<item
+			android:id="@+id/Home_sendsms"
+			android:showAsAction="always"
+			android:icon="@drawable/ic_content_email"
+			android:title="send sms"
+			/>   
+			
+<item
+			android:id="@+id/Home_share"
+			android:icon="@drawable/ic_socialshare"
+			android:showAsAction="never"
+			android:title="Share"
+			android:actionProviderClass="android.widget.ShareActionProvider"
+			/>
+<item
+			android:id="@+id/Home_save"
+			android:icon="@drawable/ic_save"
+			android:showAsAction="ifRoom"
+			android:title="Save"
+			/>
+<item
+			android:id="@+id/Home_Refresh"
+			android:icon="@drawable/ic_action_refresh"
+			android:showAsAction="always"
+			android:title="Refresh"
+			/>
+
+
+</menu>

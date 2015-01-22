@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_laun" 
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"/>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        >
+        
+        
+        
+        
+    </LinearLayout>
+     <TextView 
+         android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/informasi"
+            android:gravity="center"
+            />
+     
+     <TextView 
+         
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/Developed"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            />
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        >
+        
+        <TextView 
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/nama_pengembang"
+            android:gravity="left"
+            android:textColor="@color/green"
+            android:textStyle="bold"
+            />
+        
+        <TextView 
+            
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="@string/email_dev"
+            android:gravity="right"
+            android:textColor="@color/blue"
+            android:textStyle="bold"   />
+        
+        
+        
+    </LinearLayout>
+    <TextView 
+            
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:text="Developer"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:textStyle="italic"   />
+
+</LinearLayout>

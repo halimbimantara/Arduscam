@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_aboutme"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="Tentang Saya"/>
+    <item
+        android:id="@+id/action_informasi"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="Informasi"/>
+    <item
+        android:id="@+id/action_urlStream"
+        android:orderInCategory="100"
+        android:showAsAction="collapseActionView"
+        android:title="Preferences"/>
+
+</menu>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/title_home"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp" 
+        android:textColor="@color/reds"
+    />
+    <TextView
+        android:id="@+id/alarmprompt"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        />
+
+<LinearLayout android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:layout_centerInParent="true"
+    	>
+
+    <ToggleButton
+        android:id="@+id/toggleButton1"
+        android:layout_width="240px"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lampu_off"
+        android:layout_gravity="center_vertical"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="ToggleButton" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="240px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/lampu_off"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:text="ToggleButton" />
+    
+</LinearLayout>
+<LinearLayout android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center|center_vertical"
+    	android:layout_alignParentBottom="true"
+    	>
+    <TextView
+        android:id="@+id/lamp1"
+        android:layout_marginLeft="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Lamp_1"
+        android:textColor="@color/blue"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold"
+        android:textSize="15pt"/>
+
+      <TextView
+         android:id="@+id/lamp2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/Lamp_2"
+         android:textColor="@color/blue"
+         android:layout_marginLeft="10dp"
+         android:textStyle="bold"
+         android:textSize="15pt"
+         android:layout_gravity="right"
+           />
+    </LinearLayout>
+</RelativeLayout>
